@@ -1,0 +1,37 @@
+.games-list{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    min-height: 85px;
+    margin-bottom: 30px;
+    &__track{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 1000px;
+        display: flex;
+        padding-left: 15px;
+    }
+    &__track-item{
+        box-sizing: border-box;
+        padding: 8px 22px;
+        margin-right: 8px;     
+        background-color: $grey;
+        list-style: none;
+        border-radius: 2px;
+    }
+    &__item-image{
+        display: block;
+        width: 32px;
+        height: 32px;
+        margin: 0 auto;
+        margin-bottom: 7px;
+        filter: grayscale(1);
+    }
+    &__item-title{
+        margin: 0;
+        font-size: 9px;
+        text-align: center;
+        color: #787a83;
+    }
+}

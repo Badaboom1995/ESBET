@@ -1,0 +1,85 @@
+.games-soon{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    min-height: 160px;
+    &__track{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        padding: 0;
+        width: 1000px;
+        text-align: center;
+    }
+    &__item{
+        position: relative;
+        box-sizing: border-box;
+        overflow: hidden;
+        width: 325px;
+        background-color: $grey;
+        position: relative;
+        margin-right: 12px;
+        color: #fff;
+        list-style: none;
+        border-radius: 0 0 4px 4px;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+        &::before{
+            content: 'VS';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 20px;
+            color: #fff;
+            top: 50px;
+        }
+    }
+    &__item--dota{
+        background-image: url(../img/game-soon-dota.png);
+    }
+    &__time{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform:translateX(-50%);
+        width: 155px;
+        padding: 10px 0px;
+        text-align: center;
+        background-image: url(../img/game-time-back.png);
+        background-repeat: no-repeat;
+        font-size: 12px;
+    }
+    &__intro{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 24px;;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    &__team{
+
+    }
+    &__team--one{
+        text-align: left;
+    }
+    &__team--two{
+        text-align: right;
+    }
+    &__team-name{
+        font-size: 12px;
+    }
+    &__rate-block{
+        display: flex;
+        background-color: $grey;
+        padding: 0px 8px;
+        padding-top: 5px;
+        padding-bottom: 7px;
+        justify-content: space-between;
+    }
+    &__rate{
+        background-color: $light-grey;
+        width: 150px;
+        font-size: 12px;
+        padding: 7px 0px;
+    }
+}

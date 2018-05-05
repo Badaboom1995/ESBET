@@ -1,0 +1,10 @@
+.text-button{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: $blue;
+    font-family: "Fira";
+    margin: 0;
+    &--big{
+        font-size: 14px;
+    }
+}

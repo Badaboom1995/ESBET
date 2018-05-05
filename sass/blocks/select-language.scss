@@ -1,0 +1,16 @@
+.select-language{
+    display: inline-block;
+    height: 30px;
+    background-color: $grey;
+    &__button{
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-family: 'Fira';
+        padding-right: 20px;
+        padding-top: 4px;
+    }
+    &__list{
+        display: none;
+    }
+}

@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Frank home</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<header class="main-header">
+  <div class="main-header__menu">
+      <div class="main-header__menu-left">
+        <button class="main-header__burger">
+          <span class="main-header__burger-line"></span>
+          <span class="main-header__burger-line"></span>
+          <span class="main-header__burger-line"></span>
+        </button>
+        <a href="index.html" class="logo"></a>
+      </div>
+      <div class="main-header__nav-wrapper main-header__nav-wrapper--closed">
+        <div class="main-header__nav-back"></div>
+        <nav class="main-header__nav ">
+            <div class="main-header__nav-header">
+              <div class="main-header__menu-left">
+                <button class="main-header__burger">
+                    <span class="main-header__burger-line"></span>
+                    <span class="main-header__burger-line"></span>
+                    <span class="main-header__burger-line"></span>
+                  </button>
+                  <a href="index.html" class="logo"></a>
+              </div>
+              <div class="select-language">
+                <button class="select-language__button">Ru</button>
+                <ul class="select-language__list">
+                  <li class="select-language__list-item"></li>
+                </ul>
+              </div>
+            </div>
+            <ul class="main-header__nav-list">
+              <li class="main-header__list-item">
+                <p class="main-header__list-item-text">Lobby</p>
+                <span class="main-header__list-item-status">live 21</span>
+              </li>
+              <li class="main-header__list-item">
+                  <p class="main-header__list-item-text">News</p>
+                  <span class="main-header__list-item-status"></span>
+              </li>
+              <li class="main-header__list-item main-header__list-item--disabled">
+                  <p class="main-header__list-item-text">Results</p>
+                  <span class="main-header__list-item-status main-header__list-item-status--soon">Coming soon</span>
+              </li>
+              <li class="main-header__list-item main-header__list-item--disabled">
+                  <p class="main-header__list-item-text">Tournaments</p>
+                  <span class="main-header__list-item-status main-header__list-item-status--soon">Coming soon</span>
+              </li>
+              <li class="main-header__list-item main-header__list-item--disabled">
+                  <p class="main-header__list-item-text">Bonys</p>
+                  <span class="main-header__list-item-status main-header__list-item-status--soon">Coming soon</span>
+              </li>
+            </ul>
+            <ul class="main-header__nav-list">
+              <li class="main-header__list-title">Games</li>
+              <li class="main-header__list-item main-header__list-item--with-icon main-header__list-item--csgo">
+                  <p class="main-header__list-item-text">CS:GO</p>
+                  <span class="main-header__list-item-status"></span>
+              </li>
+              <li class="main-header__list-item main-header__list-item--with-icon main-header__list-item--dota">
+                  <p class="main-header__list-item-text">Dota2</p>
+                  <span class="main-header__list-item-status"></span>
+              </li>
+              <li class="main-header__list-item main-header__list-item--with-icon main-header__list-item--hot">
+                  <p class="main-header__list-item-text">HOT</p>
+                  <span class="main-header__list-item-status"></span>
+              </li>
+              <li class="main-header__list-item main-header__list-item--with-icon main-header__list-item--lol">
+                  <p class="main-header__list-item-text">LOL</p>
+                  <span class="main-header__list-item-status"></span>
+              </li>
+              <li class="main-header__list-item-link">
+                <button href="#" class="text-button">Show more</button>
+              </li>
+            </ul>  
+          </nav>
+      </div>
+      
+  </div>
+  <a href="#" class="button">Log in</a>
+</header>
+<main>
+  <nav class="sticky-menu">
+    <a href="#" class="sticky-menu__link sticky-menu__link--active">Lobby</a>
+    <a href="#" class="sticky-menu__link">Betslip<span class="sticky-menu__betslip-number">0</span></a>
+    <a href="#" class="sticky-menu__link">My bet</a>
+  </nav>
+  <div class="games-soon">
+    <ul class="games-soon__track">
+      <li class="games-soon__item games-soon__item--dota">
+        <div class="games-soon__intro">
+          <div class="games-soon__time">18:00</div>
+          <div class="games-soon__team">
+            <div class="games-soon__team-logo games-soon__team--one">
+              <img src="img/fnatic-logo.png" alt="">
+            </div>
+            <div class="games-soon__team-name">Virtus.pro</div>
+          </div>
+          <div class="games-soon__team">
+            <div class="games-soon__team-logo games-soon__team--two">
+              <img src="img/virtus-pro-logo.png" alt="">
+            </div>
+            <div class="games-soon__team-name">Quantom Bellator Fire</div>
+          </div>
+        </div>
+        <div class="games-soon__rate-block">
+          <div class="games-soon__rate">1.5</div>
+          <div class="games-soon__rate">1.5</div>
+        </div>
+      </li>
+      <li class="games-soon__item games-soon__item--dota">
+        <div class="games-soon__intro">
+          <div class="games-soon__time">18:00</div>
+          <div class="games-soon__team">
+            <div class="games-soon__team-logo games-soon__team--one">
+              <img src="img/fnatic-logo.png" alt="">
+            </div>
+            <div class="games-soon__team-name">Virtus.pro</div>
+          </div>
+          <div class="games-soon__team">
+            <div class="games-soon__team-logo games-soon__team--two">
+              <img src="img/virtus-pro-logo.png" alt="">
+            </div>
+            <div class="games-soon__team-name">Quantom Bellator Fire</div>
+          </div>
+        </div>
+        <div class="games-soon__rate-block">
+          <div class="games-soon__rate">1.5</div>
+          <div class="games-soon__rate">1.5</div>
+        </div>
+      </li>
+      <li class="games-soon__item games-soon__item--dota">
+        <div class="games-soon__intro">
+          <div class="games-soon__time">18:00</div>
+          <div class="games-soon__team">
+            <div class="games-soon__team-logo games-soon__team--one">
+              <img src="img/fnatic-logo.png" alt="">
+            </div>
+            <div class="games-soon__team-name">Virtus.pro</div>
+          </div>
+          <div class="games-soon__team">
+            <div class="games-soon__team-logo games-soon__team--two">
+              <img src="img/virtus-pro-logo.png" alt="">
+            </div>
+            <div class="games-soon__team-name">Quantom Bellator Fire</div>
+          </div>
+        </div>
+        <div class="games-soon__rate-block">
+          <div class="games-soon__rate">1.5</div>
+          <div class="games-soon__rate">1.5</div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="games-list">
+      <ul class="games-list__track">
+        <li class="games-list__track-item">
+          <div class="games-list__item-image">
+            <img src="img/dota-icon.png" alt="">
+          </div>
+          <p class="games-list__item-title">Dota 2</p>
+        </li>
+        <li class="games-list__track-item">
+          <div class="games-list__item-image">
+            <img src="img/csgo-icon.png" alt="">
+          </div>
+          <p class="games-list__item-title">Dota 2</p>
+        </li>
+        <li class="games-list__track-item">
+          <div class="games-list__item-image">
+            <img src="img/lol-icon.png" alt="">
+          </div>
+          <p class="games-list__item-title">Dota 2</p>
+        </li>
+        <li class="games-list__track-item">
+          <div class="games-list__item-image">
+            <img src="img/hots-icon.png" alt="">
+          </div>
+          <p class="games-list__item-title">Dota 2</p>
+        </li>
+        <li class="games-list__track-item">
+          <div class="games-list__item-image">
+            <img src="img/starcraft-icon.png" alt="">
+          </div>
+          <p class="games-list__item-title">Dota 2</p>
+        </li>
+      </ul>
+  </div>
+  <div class="matches">
+    <div class="matches__header matches__header--live">Live</div>
+    <div class="matches__item">
+      <div class="matches__item-header matches__item-header--csgo">
+          <h2 class="matches__item-title">GG GO MATCHES</h2>
+          <span class="matches__item-type">Winner.Map1</span>
+      </div>
+      <div class="matches__item-body">
+          <div class="matches__information">
+            <span class="matches__item-time matches__item-time--youtube">17:30</span>
+            <div class="matches__item-teams">
+              <p class="matches__item-team-name">Virtus Pro</p>
+              <p class="matches__item-team-name">Paradise Team Killer</p>
+            </div>
+          </div>
+          <div class="matches__item-rates">
+              <div class="matches__rate-item">
+                <span class="matches__rate-status">1</span>
+                <span class="matches__rate-number">3.12</span>
+              </div>
+              <div class="matches__rate-item">
+                <span class="matches__rate-status">x</span>
+                <span class="matches__rate-number">3.12</span>
+              </div>
+              <div class="matches__rate-item">
+                <span class="matches__rate-status">2</span>
+                <span class="matches__rate-number">3.12</span>
+              </div>
+          </div>
+      </div>
+    </div>
+    <div class="matches__item">
+      <div class="matches__item-header matches__item-header--dota">
+          <h2 class="matches__item-title">Dota 2: SeaCapa</h2>
+          <span class="matches__item-type">Winner.Map1</span>
+      </div>
+      <div class="matches__item-body">
+          <div class="matches__information">
+            <span class="matches__item-time matches__item-time--youtube">17:30</span>
+            <div class="matches__item-teams">
+              <p class="matches__item-team-name">Virtus Pro</p>
+              <p class="matches__item-team-name">Paradise Team Killer</p>
+            </div>
+          </div>
+          <div class="matches__item-rates">
+              <div class="matches__rate-item">
+                <span class="matches__rate-status">1</span>
+                <span class="matches__rate-number">3.12</span>
+              </div>
+              <div class="matches__rate-item">
+                <span class="matches__rate-status">x</span>
+                <span class="matches__rate-number">3.12</span>
+              </div>
+              <div class="matches__rate-item">
+                <span class="matches__rate-status">2</span>
+                <span class="matches__rate-number">3.12</span>
+              </div>
+          </div>
+      </div>
+    </div>
+    <div class="matches__item">
+      <div class="matches__item-header matches__item-header--csgo">
+          <h2 class="matches__item-title">GG GO MATCHES</h2>
+          <span class="matches__item-type">Winner.Map1</span>
+      </div>
+      <div class="matches__item-body">
+          <div class="matches__information">
+            <span class="matches__item-time">17:30</span>
+            <div class="matches__item-teams">
+              <p class="matches__item-team-name">Virtus Pro</p>
+              <p class="matches__item-team-name">Paradise Team Killer</p>
+            </div>
+          </div>
+          <div class="matches__item-rates">
+              <div class="matches__rate-item matches__rate-item--locked">
+                <span class="matches__rate-status matches__rate-status--locked"></span>
+                <span class="matches__rate-number">3.12</span>
+              </div>
+              <div class="matches__rate-item matches__rate-item--locked">
+                <span class="matches__rate-status matches__rate-status--locked"></span>
+                <span class="matches__rate-number">3.12</span>
+              </div>
+              <div class="matches__rate-item matches__rate-item--locked">
+                <span class="matches__rate-status matches__rate-status--locked"></span>
+                <span class="matches__rate-number">3.12</span>
+              </div>
+          </div>
+      </div>
+    </div>
+    <div class="matches__item">
+      <div class="matches__item-header matches__item-header--dota">
+          <h2 class="matches__item-title">Dota 2: SeaCapa</h2>
+          <span class="matches__item-type">Total.Map1</span>
+      </div>
+      <div class="matches__item-body">
+          <div class="matches__information">
+            <span class="matches__item-time">17:30</span>
+            <div class="matches__item-teams">
+              <p class="matches__item-team-name">Virtus Pro</p>
+              <p class="matches__item-team-name">Paradise Team Killer</p>
+            </div>
+          </div>
+          <div class="matches__item-rates">
+              <div class="matches__rate-item">
+                <span class="matches__rate-status">Over 26.5</span>
+                <span class="matches__rate-number">3.12</span>
+              </div>
+              <div class="matches__rate-item">
+                <span class="matches__rate-status">Under 26.5</span>
+                <span class="matches__rate-number">3.12</span>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="matches">
+    <div class="matches__header">Prematch</div>
+    <div class="matches__item">
+      <div class="matches__item-header matches__item-header--prematch matches__item-header--csgo-big">
+          <h2 class="matches__item-title matches__item-title--prematch">Counter - strike</h2>
+          <span class="matches__item-type"></span>
+      </div>
+      <table class="matches__table">
+        <tr class="matches__table-row matches__table-row--header">
+          <td class="matches__table-cell matches__table-cell--head matches__table-cell--info">Seacapa</td>
+          <td class="matches__table-cell  matches__table-cell--head">1</td>
+          <td class="matches__table-cell  matches__table-cell--head">x</td>
+          <td class="matches__table-cell  matches__table-cell--head">2</td>
+        </tr>
+        <tr class="matches__table-row">
+          <td class="matches__table-cell matches__table-cell--info">
+            <span class="matches__datetime matches__datetime--youtube">24.05. 17:30</span>
+            <div class="matches__item-teams">
+                <p class="matches__item-team-name">Virtus Pro</p>
+                <p class="matches__item-team-name">Paradise Team Ki...</p>
+            </div>
+          </td>
+          <td class="matches__table-cell matches__table-cell--disabled">
+            <div class="matches__table-rate">-</div>
+          </td>
+          <td class="matches__table-cell matches__table-cell--disabled">
+            <div class="matches__table-rate">-</div>
+          </td>
+          <td class="matches__table-cell matches__table-cell--disabled">
+            <div class="matches__table-rate">-</div>
+          </td>
+        </tr>
+        <tr class="matches__table-row">
+          <td class="matches__table-cell matches__table-cell--info">
+            <span class="matches__datetime">24.05. 17:30</span>
+            <div class="matches__item-teams">
+                <p class="matches__item-team-name">Virtus Pro</p>
+                <p class="matches__item-team-name">Paradise Team Ki...</p>
+            </div>
+          </td>
+          <td class="matches__table-cell matches__table-cell--disabled">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell matches__table-cell--disabled">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell matches__table-cell--disabled">
+            <div class="matches__table-rate">234.1</div>
+          </td>
+        </tr>
+        <tr class="matches__table-row">
+          <td class="matches__table-cell matches__table-cell--info">
+            <span class="matches__datetime">24.05. 17:30</span>
+            <div class="matches__item-teams">
+                <p class="matches__item-team-name">Virtus Pro</p>
+                <p class="matches__item-team-name">Paradise Team Ki...</p>
+            </div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">234.1</div>
+          </td>
+        </tr>
+        <tr class="matches__table-row">
+          <td class="matches__table-cell matches__table-cell--info">
+            <span class="matches__datetime matches__datetime--youtube">24.05. 17:30</span>
+            <div class="matches__item-teams">
+                <p class="matches__item-team-name">Virtus Pro</p>
+                <p class="matches__item-team-name">Paradise Team Ki...</p>
+            </div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">234.1</div>
+          </td>
+        </tr>
+        <tr class="matches__table-row">
+          <td class="matches__table-cell matches__table-cell--info">
+            <span class="matches__datetime">24.05. 17:30</span>
+            <div class="matches__item-teams">
+                <p class="matches__item-team-name">Virtus Pro</p>
+                <p class="matches__item-team-name">Paradise Team Ki...</p>
+            </div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">234.1</div>
+          </td>
+        </tr>
+        <tr class="matches__table-row">
+          <td class="matches__table-cell matches__table-cell--info">
+            <span class="matches__datetime">24.05. 17:30</span>
+            <div class="matches__item-teams">
+                <p class="matches__item-team-name">Virtus Pro</p>
+                <p class="matches__item-team-name">Paradise Team Ki...</p>
+            </div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">234.1</div>
+          </td>
+        </tr>
+      </table>
+      <table class="matches__table">
+        <tr class="matches__table-row matches__table-row--header">
+          <td class="matches__table-cell matches__table-cell--head matches__table-cell--info">Seacapa</td>
+          <td class="matches__table-cell  matches__table-cell--head">1</td>
+          <td class="matches__table-cell  matches__table-cell--head">2</td>
+        </tr>
+        <tr class="matches__table-row">
+          <td class="matches__table-cell matches__table-cell--info">
+            <span class="matches__datetime matches__datetime--youtube">24.05. 17:30</span>
+            <div class="matches__item-teams">
+                <p class="matches__item-team-name">Virtus Pro</p>
+                <p class="matches__item-team-name">Paradise Team Ki...</p>
+            </div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">234.1</div>
+          </td>
+        </tr>
+        <tr class="matches__table-row">
+          <td class="matches__table-cell matches__table-cell--info">
+            <span class="matches__datetime">24.05. 17:30</span>
+            <div class="matches__item-teams">
+                <p class="matches__item-team-name">Virtus Pro</p>
+                <p class="matches__item-team-name">Paradise Team Ki...</p>
+            </div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">234.1</div>
+          </td>
+        </tr>
+      </table>
+      <button class="matches__more-btn">
+        <p class="text-button text-button--big">See all</p>
+      </button>
+    </div>
+    <div class="matches__item">
+      <div class="matches__item-header matches__item-header--prematch matches__item-header--hidden matches__item-header--dota-seacapa-big">
+          <h2 class="matches__item-title matches__item-title--prematch">Dota 2: SeaCapa</h2>
+          <span class="matches__item-type"></span>
+      </div>
+      <table class="matches__table matches__table--hidden">
+        <tr class="matches__table-row matches__table-row--header">
+          <td class="matches__table-cell matches__table-cell--head matches__table-cell--info">Seacapa</td>
+          <td class="matches__table-cell  matches__table-cell--head">1</td>
+          <td class="matches__table-cell  matches__table-cell--head">x</td>
+          <td class="matches__table-cell  matches__table-cell--head">2</td>
+        </tr>
+        <tr class="matches__table-row">
+          <td class="matches__table-cell matches__table-cell--info">
+            <span class="matches__datetime matches__datetime--youtube">24.05. 17:30</span>
+            <div class="matches__item-teams">
+                <p class="matches__item-team-name">Virtus Pro</p>
+                <p class="matches__item-team-name">Paradise Team Ki...</p>
+            </div>
+          </td>
+          <td class="matches__table-cell matches__table-cell--disabled">
+            <div class="matches__table-rate">-</div>
+          </td>
+          <td class="matches__table-cell matches__table-cell--disabled">
+            <div class="matches__table-rate">-</div>
+          </td>
+          <td class="matches__table-cell matches__table-cell--disabled">
+            <div class="matches__table-rate">-</div>
+          </td>
+        </tr>
+        <tr class="matches__table-row">
+          <td class="matches__table-cell matches__table-cell--info">
+            <span class="matches__datetime">24.05. 17:30</span>
+            <div class="matches__item-teams">
+                <p class="matches__item-team-name">Virtus Pro</p>
+                <p class="matches__item-team-name">Paradise Team Ki...</p>
+            </div>
+          </td>
+          <td class="matches__table-cell matches__table-cell--disabled">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell matches__table-cell--disabled">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell matches__table-cell--disabled">
+            <div class="matches__table-rate">234.1</div>
+          </td>
+        </tr>
+        <tr class="matches__table-row">
+          <td class="matches__table-cell matches__table-cell--info">
+            <span class="matches__datetime">24.05. 17:30</span>
+            <div class="matches__item-teams">
+                <p class="matches__item-team-name">Virtus Pro</p>
+                <p class="matches__item-team-name">Paradise Team Ki...</p>
+            </div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">234.1</div>
+          </td>
+        </tr>
+        <tr class="matches__table-row">
+          <td class="matches__table-cell matches__table-cell--info">
+            <span class="matches__datetime matches__datetime--youtube">24.05. 17:30</span>
+            <div class="matches__item-teams">
+                <p class="matches__item-team-name">Virtus Pro</p>
+                <p class="matches__item-team-name">Paradise Team Ki...</p>
+            </div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">234.1</div>
+          </td>
+        </tr>
+        <tr class="matches__table-row">
+          <td class="matches__table-cell matches__table-cell--info">
+            <span class="matches__datetime">24.05. 17:30</span>
+            <div class="matches__item-teams">
+                <p class="matches__item-team-name">Virtus Pro</p>
+                <p class="matches__item-team-name">Paradise Team Ki...</p>
+            </div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">234.1</div>
+          </td>
+        </tr>
+        <tr class="matches__table-row">
+          <td class="matches__table-cell matches__table-cell--info">
+            <span class="matches__datetime">24.05. 17:30</span>
+            <div class="matches__item-teams">
+                <p class="matches__item-team-name">Virtus Pro</p>
+                <p class="matches__item-team-name">Paradise Team Ki...</p>
+            </div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">234.1</div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="matches__item">
+      <div class="matches__item-header matches__item-header--prematch matches__item-header--hidden matches__item-header--lol-big">
+          <h2 class="matches__item-title matches__item-title--prematch">LOL</h2>
+          <span class="matches__item-type"></span>
+      </div>
+      <table class="matches__table matches__table--hidden">
+        <tr class="matches__table-row matches__table-row--header">
+          <td class="matches__table-cell matches__table-cell--head matches__table-cell--info">Seacapa</td>
+          <td class="matches__table-cell  matches__table-cell--head">1</td>
+          <td class="matches__table-cell  matches__table-cell--head">x</td>
+          <td class="matches__table-cell  matches__table-cell--head">2</td>
+        </tr>
+        <tr class="matches__table-row">
+          <td class="matches__table-cell matches__table-cell--info">
+            <span class="matches__datetime matches__datetime--youtube">24.05. 17:30</span>
+            <div class="matches__item-teams">
+                <p class="matches__item-team-name">Virtus Pro</p>
+                <p class="matches__item-team-name">Paradise Team Ki...</p>
+            </div>
+          </td>
+          <td class="matches__table-cell matches__table-cell--disabled">
+            <div class="matches__table-rate">-</div>
+          </td>
+          <td class="matches__table-cell matches__table-cell--disabled">
+            <div class="matches__table-rate">-</div>
+          </td>
+          <td class="matches__table-cell matches__table-cell--disabled">
+            <div class="matches__table-rate">-</div>
+          </td>
+        </tr>
+        <tr class="matches__table-row">
+          <td class="matches__table-cell matches__table-cell--info">
+            <span class="matches__datetime">24.05. 17:30</span>
+            <div class="matches__item-teams">
+                <p class="matches__item-team-name">Virtus Pro</p>
+                <p class="matches__item-team-name">Paradise Team Ki...</p>
+            </div>
+          </td>
+          <td class="matches__table-cell matches__table-cell--disabled">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell matches__table-cell--disabled">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell matches__table-cell--disabled">
+            <div class="matches__table-rate">234.1</div>
+          </td>
+        </tr>
+        <tr class="matches__table-row">
+          <td class="matches__table-cell matches__table-cell--info">
+            <span class="matches__datetime">24.05. 17:30</span>
+            <div class="matches__item-teams">
+                <p class="matches__item-team-name">Virtus Pro</p>
+                <p class="matches__item-team-name">Paradise Team Ki...</p>
+            </div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">234.1</div>
+          </td>
+        </tr>
+        <tr class="matches__table-row">
+          <td class="matches__table-cell matches__table-cell--info">
+            <span class="matches__datetime matches__datetime--youtube">24.05. 17:30</span>
+            <div class="matches__item-teams">
+                <p class="matches__item-team-name">Virtus Pro</p>
+                <p class="matches__item-team-name">Paradise Team Ki...</p>
+            </div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">234.1</div>
+          </td>
+        </tr>
+        <tr class="matches__table-row">
+          <td class="matches__table-cell matches__table-cell--info">
+            <span class="matches__datetime">24.05. 17:30</span>
+            <div class="matches__item-teams">
+                <p class="matches__item-team-name">Virtus Pro</p>
+                <p class="matches__item-team-name">Paradise Team Ki...</p>
+            </div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">234.1</div>
+          </td>
+        </tr>
+        <tr class="matches__table-row">
+          <td class="matches__table-cell matches__table-cell--info">
+            <span class="matches__datetime">24.05. 17:30</span>
+            <div class="matches__item-teams">
+                <p class="matches__item-team-name">Virtus Pro</p>
+                <p class="matches__item-team-name">Paradise Team Ki...</p>
+            </div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">234.1</div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="matches__item">
+      <div class="matches__item-header matches__item-header--prematch matches__item-header--hidden matches__item-header--starcraft-big">
+          <h2 class="matches__item-title matches__item-title--prematch">Starcraft 2</h2>
+          <span class="matches__item-type"></span>
+      </div>
+      <table class="matches__table matches__table--hidden">
+        <tr class="matches__table-row matches__table-row--header">
+          <td class="matches__table-cell matches__table-cell--head matches__table-cell--info">Seacapa</td>
+          <td class="matches__table-cell  matches__table-cell--head">1</td>
+          <td class="matches__table-cell  matches__table-cell--head">x</td>
+          <td class="matches__table-cell  matches__table-cell--head">2</td>
+        </tr>
+        <tr class="matches__table-row">
+          <td class="matches__table-cell matches__table-cell--info">
+            <span class="matches__datetime matches__datetime--youtube">24.05. 17:30</span>
+            <div class="matches__item-teams">
+                <p class="matches__item-team-name">Virtus Pro</p>
+                <p class="matches__item-team-name">Paradise Team Ki...</p>
+            </div>
+          </td>
+          <td class="matches__table-cell matches__table-cell--disabled">
+            <div class="matches__table-rate">-</div>
+          </td>
+          <td class="matches__table-cell matches__table-cell--disabled">
+            <div class="matches__table-rate">-</div>
+          </td>
+          <td class="matches__table-cell matches__table-cell--disabled">
+            <div class="matches__table-rate">-</div>
+          </td>
+        </tr>
+        <tr class="matches__table-row">
+          <td class="matches__table-cell matches__table-cell--info">
+            <span class="matches__datetime">24.05. 17:30</span>
+            <div class="matches__item-teams">
+                <p class="matches__item-team-name">Virtus Pro</p>
+                <p class="matches__item-team-name">Paradise Team Ki...</p>
+            </div>
+          </td>
+          <td class="matches__table-cell matches__table-cell--disabled">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell matches__table-cell--disabled">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell matches__table-cell--disabled">
+            <div class="matches__table-rate">234.1</div>
+          </td>
+        </tr>
+        <tr class="matches__table-row">
+          <td class="matches__table-cell matches__table-cell--info">
+            <span class="matches__datetime">24.05. 17:30</span>
+            <div class="matches__item-teams">
+                <p class="matches__item-team-name">Virtus Pro</p>
+                <p class="matches__item-team-name">Paradise Team Ki...</p>
+            </div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">234.1</div>
+          </td>
+        </tr>
+        <tr class="matches__table-row">
+          <td class="matches__table-cell matches__table-cell--info">
+            <span class="matches__datetime matches__datetime--youtube">24.05. 17:30</span>
+            <div class="matches__item-teams">
+                <p class="matches__item-team-name">Virtus Pro</p>
+                <p class="matches__item-team-name">Paradise Team Ki...</p>
+            </div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">234.1</div>
+          </td>
+        </tr>
+        <tr class="matches__table-row">
+          <td class="matches__table-cell matches__table-cell--info">
+            <span class="matches__datetime">24.05. 17:30</span>
+            <div class="matches__item-teams">
+                <p class="matches__item-team-name">Virtus Pro</p>
+                <p class="matches__item-team-name">Paradise Team Ki...</p>
+            </div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">234.1</div>
+          </td>
+        </tr>
+        <tr class="matches__table-row">
+          <td class="matches__table-cell matches__table-cell--info">
+            <span class="matches__datetime">24.05. 17:30</span>
+            <div class="matches__item-teams">
+                <p class="matches__item-team-name">Virtus Pro</p>
+                <p class="matches__item-team-name">Paradise Team Ki...</p>
+            </div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">234.1</div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="matches__item">
+      <div class="matches__item-header matches__item-header--prematch matches__item-header--hidden matches__item-header--dota-two-big">
+          <h2 class="matches__item-title matches__item-title--prematch">Dota 2</h2>
+          <span class="matches__item-type"></span>
+      </div>
+      <table class="matches__table matches__table--hidden">
+        <tr class="matches__table-row matches__table-row--header">
+          <td class="matches__table-cell matches__table-cell--head matches__table-cell--info">Seacapa</td>
+          <td class="matches__table-cell  matches__table-cell--head">1</td>
+          <td class="matches__table-cell  matches__table-cell--head">x</td>
+          <td class="matches__table-cell  matches__table-cell--head">2</td>
+        </tr>
+        <tr class="matches__table-row">
+          <td class="matches__table-cell matches__table-cell--info">
+            <span class="matches__datetime matches__datetime--youtube">24.05. 17:30</span>
+            <div class="matches__item-teams">
+                <p class="matches__item-team-name">Virtus Pro</p>
+                <p class="matches__item-team-name">Paradise Team Ki...</p>
+            </div>
+          </td>
+          <td class="matches__table-cell matches__table-cell--disabled">
+            <div class="matches__table-rate">-</div>
+          </td>
+          <td class="matches__table-cell matches__table-cell--disabled">
+            <div class="matches__table-rate">-</div>
+          </td>
+          <td class="matches__table-cell matches__table-cell--disabled">
+            <div class="matches__table-rate">-</div>
+          </td>
+        </tr>
+        <tr class="matches__table-row">
+          <td class="matches__table-cell matches__table-cell--info">
+            <span class="matches__datetime">24.05. 17:30</span>
+            <div class="matches__item-teams">
+                <p class="matches__item-team-name">Virtus Pro</p>
+                <p class="matches__item-team-name">Paradise Team Ki...</p>
+            </div>
+          </td>
+          <td class="matches__table-cell matches__table-cell--disabled">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell matches__table-cell--disabled">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell matches__table-cell--disabled">
+            <div class="matches__table-rate">234.1</div>
+          </td>
+        </tr>
+        <tr class="matches__table-row">
+          <td class="matches__table-cell matches__table-cell--info">
+            <span class="matches__datetime">24.05. 17:30</span>
+            <div class="matches__item-teams">
+                <p class="matches__item-team-name">Virtus Pro</p>
+                <p class="matches__item-team-name">Paradise Team Ki...</p>
+            </div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">234.1</div>
+          </td>
+        </tr>
+        <tr class="matches__table-row">
+          <td class="matches__table-cell matches__table-cell--info">
+            <span class="matches__datetime matches__datetime--youtube">24.05. 17:30</span>
+            <div class="matches__item-teams">
+                <p class="matches__item-team-name">Virtus Pro</p>
+                <p class="matches__item-team-name">Paradise Team Ki...</p>
+            </div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">234.1</div>
+          </td>
+        </tr>
+        <tr class="matches__table-row">
+          <td class="matches__table-cell matches__table-cell--info">
+            <span class="matches__datetime">24.05. 17:30</span>
+            <div class="matches__item-teams">
+                <p class="matches__item-team-name">Virtus Pro</p>
+                <p class="matches__item-team-name">Paradise Team Ki...</p>
+            </div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">234.1</div>
+          </td>
+        </tr>
+        <tr class="matches__table-row">
+          <td class="matches__table-cell matches__table-cell--info">
+            <span class="matches__datetime">24.05. 17:30</span>
+            <div class="matches__item-teams">
+                <p class="matches__item-team-name">Virtus Pro</p>
+                <p class="matches__item-team-name">Paradise Team Ki...</p>
+            </div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">3.12</div>
+          </td>
+          <td class="matches__table-cell">
+            <div class="matches__table-rate">234.1</div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</main>
+<footer class="main-footer">
+ <p class="main-footer__note"> Important note about displayed information and data transmission delays </p>
+ <a class="main-footer__logo"></a>
+ <p class="main-footer__links">
+   <a href="#" class="main-footer__links-item">terms  Conditions</a>
+   <a href="#" class="main-footer__links-item">public offer agreement</a>
+   <a href="#" class="main-footer__links-item">responsible gambling</a>
+   <a href="#" class="main-footer__links-item">cookies policy</a>
+   <a href="#" class="main-footer__links-item">support</a>
+</p>
+ <div class="main-footer__note">
+   <a class="main-footer__social-link main-footer__social-link--youtube"></a>
+   <a class="main-footer__social-link main-footer__social-link--instagram"></a>
+   <a class="main-footer__social-link main-footer__social-link--vk"></a>
+   <a class="main-footer__social-link main-footer__social-link--fb"></a>
+   <a class="main-footer__social-link main-footer__social-link--twitter"></a>
+   <a class="main-footer__social-link main-footer__social-link--twich"></a>
+ </div>
+ <div class="main-footer__copyright">
+   <p class="main-footer__copyright-text">
+      © 2018 ES.BET. All rights reserved. es.bet is operated by Feelflow Enterprises LTD , a company registered in the Republic of Cyprus, with its principal place of business at: Vasili Michailidi, 9, Limassol, Cyprus; Registration number: HE 373465; VAT number 10373465T. All gambling services are licensed by Esports Go N.V. (License 8048/JAZ2017-065), Address: E-Commerce Park Vredenberg, Curacao, Netherlands Antilles, Registration number: 136043, which is a parent company of Feelflow Enterprises LTD.
+   </p>
+   <div class="main-footer__copyright-logos">
+      <span class="main-footer__copyright-logo main-footer__copyright-logo--age"></span>
+      <span class="main-footer__copyright-logo main-footer__copyright-logo--h"></span>
+      <span class="main-footer__copyright-logo main-footer__copyright-logo--protect"></span>
+   </div>
+ </div>
+ <p class="main-footer__small-text">Quant studies closely resemble scientific experiments, with rigorous well-controlled conditions intended to enable the capture of metrics (such as success or time on task).In contrast, qual studies attempt to </p>
+</footer>
+</body>
+</html>
